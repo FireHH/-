@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clear{
+    *zoom:1;
+}
+.maincontent{
+    margin: 0 auto;
+    height: 4218px;
+    background-color: red;
+}
+.maincontent .products .right{
+    width: 992px;
+    height: 614px;
+    background-color: salmon;
+    float: right;
+}
+.maincontent .products{
+    width: 1226px;
+    height: 628px;
+}
+.backtop{
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+    border-radius: 10px;
+}

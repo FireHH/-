@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/shopCar.css">
+</head>
+<body>
+<div class="main">
+ <div class="top">
+     <div class="top-bar">
+     <div class="left">
+         <a href="index.html"></a>
+     </div>
+     <div class="center clear">
+         <p class="p1"><span class="big">我的购物车</span><span class="small">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+      </p>
+     </div>
+     <div class="right"><p class="p2"><a href="login.html">登录</a><span>|</span><a href="register.html">注册</a></p></div>
+
+     </div>
+ </div>
+<div class="content">
+    <div class="cont">
+          <div class="com1">
+              <div class="td1">
+                  <a id="check" href=""></a>
+                  全选
+              </div>
+              <div class="td2"></div>
+              <div class="td3">商品名称</div>
+              <div class="td4">单价</div>
+              <div class="td5">数量</div>
+              <div class="td6">小计</div>
+              <div class="td7">操作</div>
+          </div>
+          <div class="com2">
+              <div class="td1"><a class="check" id="check2" href=""></a></div>
+              <div class="td2"><a href="product.html"></a></div>
+              <div class="td3">
+                  <a href="product.html">小米笔记本Air 12 M3 4G 128G金色</a>
+                  <p>适配机型： 小米笔记本</p>
+              </div>
+              <div class="td4"><span class="price">3599元</span></div>
+              <div class="td5">
+                      <div><input type="number"  class="count" value="1"></div>
+              </div>
+              <div class="td6">3599元</div>
+              <div class="td7"><a href=""></a></div>
+          </div>
+        <div class="com2">
+            <div class="td1"><a class="check" id="check3" href=""></a></div>
+            <div id="td2" class="td2"><a href="product.html"></a></div>
+            <div class="td3">
+                <a href="product.html">小米手机 128G金色</a>
+                <p>适配机型： 小米手机</p>
+            </div>
+            <div class="td4"><span  class="price">1699元</span></div>
+            <div class="td5">
+               <div><input type="number" class="count" value="1"></div>
+            </div>
+            <div class="td6">1699元</div>
+            <div class="td7"><a href=""></a></div>
+        </div>
+    </div>
+    <div class="hidden" id="hidden">
+        <a href="https://www.mi.com/mibookair-12/"></a>
+    </div>
+    <div class="buy" id="buy">
+        <div><a href="">继续购物</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>|</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>共<span class="or">2</span>件商品，已选择<span class="or" id="or">0</span>件</span>
+        </div>
+        <span class="left">合计（不含运费）：<span id="sum">0.00元</span> </span>
+        <a class="pay" href="order.html">去结算</a>
+    </div>
+
+
+</div>
+ </div>
+<script src="js/jQuery1.10.1.min.js"></script>
+<script src="js/shopCar.js"></script>
+</body>
+</html>

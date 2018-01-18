@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ordercontent{
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);;
+}
+.ordercontent .ordercon{
+    width: 1226px;
+    height: 999px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+}
+.ordercontent .topbar{
+    width:1226px;
+    height: 41px;
+    background-color: rgb(245, 245, 245);
+}
+.ordercontent .topbar a,span{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+
+}
+.ordermain{
+    width: 1226px;
+    margin: 0 auto;
+}
+.ordermain .orderleft{
+    float: left;
+    width: 234px;
+    height: 1000px;
+    background-color: white;
+}
+
+.ordermain .orderleft ul{
+    list-style: none;
+    margin-left: 48px;
+}
+.ordermain .orderleft span{
+    color: #333;
+    font-size: 16px;
+    margin: 30px  0   20px    48px;
+    display: block;
+
+}
+.ordermain .orderleft ul li{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.ordermain .orderleft ul li a{
+    text-decoration: none;
+    color: #757575;
+}
+.ordermain .orderright{
+    float: right;
+    width: 978px;
+    height: 700px;
+    margin-left: 14px;
+    background-color: white;
+
+}
+.ordermain .orderright h1{
+    font-weight: normal;
+    font-size: 30px;
+    color:#757575;
+    line-height: 68px;
+    display: inline-block;
+}
+.ordermain .orderright .rightmain{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.ordermain .orderright .sp1{
+    color: #757575;
+    font-size: 14px;
+}
+.ordermain .orderright a{
+    color: #757575;
+    text-decoration: none;
+}
+.ordermain .orderright a{
+
+    font-size: 14px;
+}
+.ordermain .orderright .aa a{
+    padding: 0 10px;
+}
+.ordermain .orderright div input{
+    float: right;
+}
+.orderright .aa div{
+    border: 1px solid #b0b0b0;
+    width: 262px;
+    float: right;
+    height: 38px;
+    text-align: center;
+    margin-right: 50px;
+}
+.orderright .aa .search{
+    width: 221px;
+    height: 38px;
+    border: none;
+    float: left;
+    outline: none;
+    border-right:1px solid silver;
+}
+.orderright .aa .submit{
+    width: 40px;
+    height: 38px;
+    border: none;
+    float: right;
+    outline: none;
+    background: url("../image/submit.png") no-repeat 0px  0px;
+}
+.orderright .aa .submit:hover{
+    width: 40px;
+    height: 38px;
+    background: url("../image/submit2.png")no-repeat 0px 0px;
+}
+.rightmain  .pay{
+    width: 888px;
+    height: 300px;
+    margin-top: 30px;
+    border: 1px solid orangered;
+}
+.rightmain  .pay .sp2{
+    color: orangered;
+    font-size: 18px;
+    margin: 30px 0  0 20px ;
+}
+.rightmain  .pay .sp3{
+    color: #757575;
+    font-size: 14px;
+    margin: 10px 0  0 20px ;
+    height: 40px;
+    line-height: 40px;
+}
+.rightmain  .pay .sp3 .price{
+    color: black;
+    font-size: 30px;
+
+}
+.rightmain  .pay .sp3 .rightspan{
+     float: right;
+     margin-right: 30px;
+ }
+.rightmain  .pay>div{
+    height: 180px;
+    margin-top: 30px;
+    border-top: 1px solid orangered;
+}
+.rightmain  .pay img{
+    width: 100px;
+    height: 100px;
+    margin: 30px 20px;
+    float: left;
+}
+.rightmain  .pay div .sp4{
+    float: left;
+   margin-top: 50px;
+}
+
+.rightmain  .pay div .button{
+    float: right;
+    margin: 50px 30px;
+
+}
+.rightmain  .pay .button .sp5{
+    width: 120px;
+    height: 30px;
+    display: block;
+    background-color: orangered;
+    text-align: center;
+    line-height: 30px;
+
+}
+.rightmain  .pay .button .sp6{
+    width: 120px;
+    height: 30px;
+    display: block;
+    background-color: white;
+    border: 1px solid silver;
+    text-align: center;
+    line-height: 30px;
+}
+.rightmain  .pay .button .sp5 a{
+    color: white;
+}

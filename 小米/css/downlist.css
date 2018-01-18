@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hidden{
+    height: 200px;
+}
+.downlist{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 1px solid silver;
+    background-color: white;
+    position: absolute;
+    top:100px;
+    z-index: 30;
+    display: none;
+    border-bottom: 1px solid rgba(240,230,230,.5);
+
+}
+.downlist ul{
+    list-style: none;
+    float: left;
+    margin-left: 68px;
+
+}
+.downlist ul .downli1{
+    margin-left: 0px;
+}
+.downlist ul li{
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    float: left;
+    display: block;
+    border-right: 1px solid #b0b0b0;
+}
+.downlist ul .downli6{
+    border: none;
+}
+.downlist ul .downli1 .image{
+    background: url("../images/xiaomi1.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .downli2 .image{
+    background: url("../images/xiaomi2.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .downli3 .image {
+    background: url("../images/xiaomi3.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .downli4 .image{
+     background: url("../images/xiaomi4.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+ }
+.downlist ul .downli5 .image{
+    background: url("../images/xiaomi5.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+.downlist ul .downli6 .image{
+    background: url("../images/xiaomi6.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .honmi1 .image{
+    background: url("../images/红米1.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .honmi2 .image{
+    background: url("../images/红米2.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .honmi3 .image {
+    background: url("../images/红米3.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .honmi4 .image{
+    background: url("../images/红米4.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .honmi5 .image{
+    background: url("../images/红米4.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+.downlist ul .honmi6 .image{
+    background: url("../images/红米2.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.downlist ul  .reduce{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    width: 160px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.downlist ul .apid1 .image{
+    background: url("../images/平板1.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .apid2 .image{
+    background: url("../images/平板2.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+.downlist ul .apid3 .image{
+    background: url("../images/平板3.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .tv1 .image{
+    background: url("../images/电视.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .tv2 .image{
+    background: url("../images/电视2.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+.downlist ul .tv3 .image{
+    background: url("../images/电视3.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .tv4 .image{
+    background: url("../images/电视4.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .tv5 .image{
+    background: url("../images/电视5.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .hezi1 .image{
+    background: url("../images/小米盒子1.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .hezi2 .image{
+    background: url("../images/小米盒子2.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+.downlist ul .hezi3 .image{
+    background: url("../images/小米盒子3.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .luyou1 .image{
+    background: url("../images/路由器1.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .luyou2 .image{
+    background: url("../images/路由器2.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+.downlist ul .luyou3 .image{
+    background: url("../images/路由器3.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .luyou4 .image{
+    background: url("../images/路由器4.png") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+.downlist ul .luyou5 .image{
+    background: url("../images/路由器5.jpg") no-repeat;
+    width: 160px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.downlist ul  p{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    width: 160px;
+    margin-top: 10px;
+    text-align: center;
+    color: orangered;
+}

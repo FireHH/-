@@ -1,0 +1,164 @@
+
+/*头部列表*/
+
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clear{
+    *zoom:1;
+}
+.content{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    /*background-color: #b0b0b0;*/
+    position: relative;
+}
+.content .logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.content .logo a{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 26px;
+    background:url("../image/logo1.png");
+}
+.content .logo a:hover{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 26px;
+    background:url("../image/logo2.png");
+}
+.content .list{
+    width: 740px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+
+}
+.content .list ul{
+    list-style: none;
+}
+.content .list ul li{
+    list-style: none;
+    float: left;
+    line-height: 100px;
+}
+.content .list ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+    font-size: 14px;
+}
+.content .list ul li a:hover{
+    color: orangered;
+}
+.content .search{
+    width: 296px;
+    height: 50px;
+    float: right;
+    margin-top: 29px;
+    border: 1px solid silver;
+    vertical-align: middle;
+    position: relative;
+}
+.content .search .example1{
+    text-decoration: none;
+    background-color: #eee;
+    color: #757575;
+    font-size: 12px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 48px;
+    top:15px;
+    padding:0 5px;
+}
+.content .search .example2{
+    text-decoration: none;
+    background-color: #eee;
+    color: #757575;
+    font-size: 12px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 125px;
+    top:15px;
+    padding:0 5px;
+
+}
+.content .search .example1:hover{
+    background-color: orangered;
+    color: white;
+}
+.content .search .example2:hover{
+    background-color: orangered;
+    color: white;
+}
+#query{
+    float: left;
+    width: 245px;
+    height: 50px;
+    border: none;
+    outline: none;//去除选中时的焦点
+    /*position: relative;*/
+}
+#submit{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-left: 1px solid silver;
+    float: right;
+    outline: none;
+    background: url("../image/search.png") no-repeat 2px;
+}
+#submit:hover{
+    background: url("../image/search2.png") no-repeat;
+}
+/*下拉列表样式*/
+.content .linkList{
+    width: 246px;
+    border:1px solid orangered;
+    border-top: none;
+    margin-top: 51px;
+    display: none;
+    position: absolute;
+    left: -1px;
+    z-index: 20;
+}
+.content .linkList ul{
+    list-style: none;
+}
+
+.content .linkList ul li{
+    width: 245px;
+    height: 30px;
+
+}
+.content .linkList .left{
+    float: left;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.content .linkList .right{
+    float: right;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.content .linkList ul a{
+    width: 245px;
+    height: 30px;
+    display: block;
+    background-color: white;
+}
+.content .linkList ul a:hover{
+    background-color: whitesmoke;
+}

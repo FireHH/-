@@ -1,0 +1,104 @@
+/*head
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*设置顶部图片样式*/
+.top a{
+    width: 1349px;
+    margin: 0 auto;
+    height: 120px;
+    display: block;
+    background: url("../image/top.png") no-repeat;
+    /*background-size: 100%;*/
+}
+/*设置外部div属性*/
+.out{
+    height: 40px;
+    /*margin: 0 auto;*/
+    background: #333;
+}
+.out .in{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.out .in ul{
+    list-style: none;
+
+}
+.out .in .left li{
+    float: left;
+}
+.out .in .right li{
+    float: left;
+}
+/*设置左边ul*/
+.out .in .left{
+    float: left;
+}
+/*设置右边ul*/
+.out .in .right{
+    float: right;
+}
+.out .in ul a{
+    text-decoration: none;
+    line-height: 40px;
+    color: silver;
+    padding: 0 6px;
+    font-size: 12px;
+
+}
+
+.in ul a:hover{
+    color: white;
+}
+
+.in .down{
+    width: 300px;height: 200px;
+    background-color: white;
+    border: 1px solid rgba(233,233,233,.6);
+    border-top: none;
+    position: absolute;
+    right: 0;
+    top:40px;
+    z-index: 20;
+    display: none;
+    text-align: center;
+    line-height: 200px;
+    font-size: 14px;
+
+}
+/*设置竖线格式*/
+li span{
+    font-size: .5em;
+    color: #424242;
+
+}
+.in .right .end .shop{
+    background-color: #424242;
+
+}
+.in .right .end a{
+    background: url("../image/shop.png") no-repeat 10px center;
+    padding: 0 10px 0 33px;
+    display: inline-block;
+    height: 40px;
+
+
+}
+.in .right .end a:hover{
+    background: url("../image/shop1.png") no-repeat 10px center white;
+    padding: 0 10px 0 33px;
+    display: inline-block;
+    height: 40px;
+    color: orangered;
+}
+.in .right .end  a.cur{
+    background: url("../image/shop1.png") no-repeat 10px center white;
+    padding: 0 10px 0 33px;
+    display: inline-block;
+    height: 40px;
+    color: orangered;
+}
